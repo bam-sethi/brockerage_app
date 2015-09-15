@@ -22,6 +22,14 @@ s5 = Stock.create(name: 'Amaya Inc', share_price: 40.01)
 c1.ClientStock.create(stock_id: s1, number_of_stocks: 99)
 c2.ClientStock.create(stock_id: s2, number_of_stocks: 56)
 c3.ClientStock.create(stock_id: s3, number_of_stocks: 7)
+c4.ClientStock.create(stock_id: s4, number_of_stocks: 16)
+c5.ClientStock.create(stock_id: s5, number_of_stocks: 119)
+c5.ClientStock.create(stock_id: s2, number_of_stocks: 9)
+c3.ClientStock.create(stock_id: s1, number_of_stocks: 4)
+c4.Clientstock.create(stock_id: s5, number_of_stocks: 1)
+
+
+
 
 
 
