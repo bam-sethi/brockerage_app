@@ -1,0 +1,13 @@
+<h1><%= @client.name %></h1>
+<%= @client.cash %>
+
+
+<% @client.stocks.each do |stock| %>
+<p>Stock Name: <%= stock.name  %></p>
+<p> Share Price: <%= stock.share_price %></p>
+<% end %>
+
+
+<% @client.client_stocks.each do |stock| %>
+<p><%= stock.number_of_stocks %></p>
+<% end %>
